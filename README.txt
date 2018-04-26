@@ -1,1 +1,2 @@
-Spring Boot Template: Lost It Application
+Lost It Application
+Spring Boot (Working)Template
