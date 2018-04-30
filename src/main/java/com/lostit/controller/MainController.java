@@ -41,6 +41,7 @@ public class MainController {
 		return repo.findByCurrentownerIgnoreCaseContaining(currentowner);
 	}
 	
+	//To get all owners
 	@GetMapping(path="/owners")
 	public @ResponseBody List<Item> findItemsWithoutOwner() {
 		return repo.findByCurrentownerIsNull();
